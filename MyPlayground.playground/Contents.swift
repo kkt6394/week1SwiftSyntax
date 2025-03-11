@@ -41,11 +41,4 @@ class Remainder: Operation {
 let add: Operation = Add()
 let subtract: Operation = Subtract()
 let multiply: Operation = Multiply()
-let divide: Operation = Divide()
-let remainder: Operation = Remainder()
 
-print(add.operate(a: 10, b: 20)!)
-print(subtract.operate(a: 10, b: 20)!)
-print(multiply.operate(a: 10, b: 20)!)
-print(divide.operate(a: 10, b: 20)!)
-print(remainder.operate(a: 10, b: 20)!)
